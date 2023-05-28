@@ -1,4 +1,5 @@
 **Welcome to my GitHub portfolio!**
+
 I am an Economist and Data Science professional 
 specializing in business analysis. Here, you will find a collection of projects 
 that demonstrate my expertise in leveraging data-driven insights 
@@ -9,10 +10,10 @@ advanced statistical techniques to extract meaningful patterns and trends from c
 datasets. By employing a combination of data visualization, machine learning, and 
 econometric modeling, **I have successfully addressed various business challenges and 
 provided actionable recommendations to;
-1. improve operational efficiency, 
-2. optimize pricing strategies, 
-3. forecast demand, and 
-4. enhance customer segmentation.**
+    1. improve operational efficiency, 
+    2. optimize pricing strategies, 
+    3. forecast demand, and 
+    4. enhance customer segmentation.**
 
 Feel free to explore the repositories to gain a deeper understanding of my project 
 methodologies, code implementations, and the results achieved. 
