@@ -1,0 +1,53 @@
+# Remote theme directory
+remote_theme: analytics-link/analytics-link.github.io
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+#-------------------------------
+# General Site Settings
+title: Ronaldo Nanub
+description: "Greetings, I am Ronaldo, a Data Scientist with expertise in delivering impactful outcomes through a range of compelling projects. I invite you to explore my portfolio, which showcases a selection of intriguing endeavors I have undertaken, emphasizing their significant contributions to business. I invite you to explore my GitHub and LinkedIn profiles or access my comprehensive resume through the provided links below."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+#-------------------------------
+# About Section
+subtitle: Data Science <span style="color:#922B21"> Portfolio </span>
+location: "Windhoek, Namibia"
+resume_url: /docs/resume.docx
+avatar_image: /img/profile_picture.jpg
+
+#-------------------------------
+# Contact links
+linkedln: "https://www.linkedin.com/in/ronaldo-nanub-27465025b/" # Add your linkedln handle
+github: "https://github.com/NanubRonaldo/NanubRonaldo.github.io/Portfolio/"  # Add your github handle
+
+paginate: 6
+paginate_path: "/page/:num"
+
+sass:
+  sass_dir: _sass
+  style: compressed # possible values: nested expanded compact compressed
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+      read_time: true
+      share: false
+
+
+#-------------------------------
+# Exclude from processing.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
